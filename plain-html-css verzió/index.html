@@ -1,5 +1,5 @@
 <!doctype html>
-<!-- Dev by Daniel Shepherd. -->
+<!-- Dev by Daniel Juhász. -->
 <html>
 	<head>
 		<meta charset="UTF-8">
@@ -8,31 +8,134 @@
 		<link href="styles/main.css" rel="stylesheet" type="text/css" />
 	</head>
 	<body>
-		<header class="center">
-			<button>Home</button>
-			<button>Contact</button>
+		<header>
+			<h1>
+				<button class=logo><img src="sources/somnialogo.png" alt="Somnia logo"></button> 
+				SHOPPING CART
+			</h1>
 		</header>
-		<table class="center">
+		<table class="center, container">
 			<tr>
 				<td>
-					<a href="https://www.google.com" title="Google">
-						<img src="sources/hke.png"  />
-					</a>
+					<table class="my-cart">
+						<tr class="my-cart-title">
+							<td colspan="4">
+								MY CART
+							</td>
+						</tr>
+						<tr class="small-caps, table-header">
+							<th>Name</th>
+							<th></th>
+							<th>Quantity</th>
+							<th>Price</th>
+						</tr>
+						<tr>
+							<td colspan=4><hr></td></tr>
+						<tr>
+							<td>
+								<img class="logo" src="sources/refront.png" alt="Product image" />
+							</td>
+							<td>'Don't forget to think' hoodie</td>
+							<td>1pcs</td>
+							<td class="align-right">5.000HUF</td>
+						</tr>
+						<tr>
+							<td>
+								<img class="logo" src="sources/refront.png" alt="Product image" />
+							</td>
+							<td>'Don't forget to think' hoodie</td>
+							<td>1pcs</td>
+							<td class="align-right">5.000HUF</td>
+						</tr><tr>
+							<td>
+								<img class="logo" src="sources/refront.png" alt="Product image" />
+							</td>
+							<td>'Don't forget to think' hoodie</td>
+							<td>1pcs</td>
+							<td class="align-right">5.000HUF</td>
+						</tr><tr>
+							<td>
+								<img class="logo" src="sources/refront.png" alt="Product image" />
+							</td>
+							<td>'Don't forget to think' hoodie</td>
+							<td>1pcs</td>
+							<td class="align-right">5.000HUF</td>
+						</tr>
+						<tr>
+							<td colspan="4"><hr></td></tr>
+						<tr>
+						<tr>
+							<td colspan="2">TOTAL</td>
+							<td>4pcs</td>
+							<td class="align-right">20.000HUF</td>
+						</tr>
+					</table>
 				</td>
-			</tr>
-			<tr>
 				<td>
-					<a href="https://www.youtube.com" title="Youtube">
-						<img src="sources/hbe.png" />
-					</a>
-				</td>
+					<table class="checkout">
+						<tr >
+							<td class="my-cart-title">
+								CHECHKOUT
+							</td>
+						</tr>
+						<tr>
+							<th>
+								Choose a payment method
+							</th>	
+						</tr>						
+						<tr>
+							<td><hr></td>
+						</tr>
+						<tr>
+							<td>
+								
+								<input type="radio" id="card" name="fav_language" value="card">
+								  	
+								<label for="card">Credit/Debit card</label><img class="logo" src="sources/round_credit_card_black_24dp.png">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<input type="radio" id="paypal" name="fav_language" value="paypal">
+								<label for="paypal">PayPal</label> <img class="logo" src="sources/paypal logo.png">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<input type="radio" id="bank" name="fav_language" value="bank">
+								<label for="bank">Bank transfer</label><img class="logo" src="sources/round_account_balance_black_24dp.png">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<input type="radio" id="crypto" name="fav_language" value="crypto">
+								<label for="crypto">Crypto</label> <img class="logo" src="sources/round_monetization_on_black_24dp.png">
+							</td>	
+						</tr>
+						<tr>
+							<td><hr></td></tr>
+						</tr>
+						<tr>
+							<td><a href="index.html"><button class="pay-button">BUY NOW</button></a></td>							
+						</tr>
+					</table>
+				</td>>
 			</tr>
 		</table>
-		<section>
-			
-		</section>
-		<footer class="center">
-			<a href="index.html" title="Home">Top</a>
-		</footer>
+		
+		
 	</body>
+	<footer>
+		<table>
+			<tr>
+				<td> 2021 somnia co. all rights reserved - somnia.hu ©</td>
+				<td class="center">
+					<a href="index.html" title="Home">top</a>
+				</td>
+				<td class="align-right">about</td>
+				<td>contact us</td>
+				<td>sitemap</td>
+			</tr>
+		</table>			
+	</footer>
 </html>
