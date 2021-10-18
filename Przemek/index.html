@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel='stylesheet' href='style.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+    <header class='header'>
+        <div class = 'RowFlex'>
+            <img class='logo' alt='Somnia Logo' src='./src/images/Somnialogo 1.png'>
+            <h1 class='logo'>SEASON II</h1>
+        </div>
+        <div class='RowFlex'>
+            <div class='RowFlex lan'>
+                <p class='lan'>HU</p>
+                <p class='lan'>/</p>
+                <p class='lan'>EN</p>
+            </div>
+            <svg class='loginIcon' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill-rule="evenodd" clip-rule="evenodd"><path d="M2.598 9h-1.055c1.482-4.638 5.83-8 10.957-8 6.347 0 11.5 5.153 11.5 11.5s-5.153 11.5-11.5 11.5c-5.127 0-9.475-3.362-10.957-8h1.055c1.443 4.076 5.334 7 9.902 7 5.795 0 10.5-4.705 10.5-10.5s-4.705-10.5-10.5-10.5c-4.568 0-8.459 2.923-9.902 7zm12.228 3l-4.604-3.747.666-.753 6.112 5-6.101 5-.679-.737 4.608-3.763h-14.828v-1h14.826z"/></svg>
+        </div>
+    </header>
+    <div class='content'>
+        <div class='product tees'>
+            <h2>Tees</h2>
+            <img id='teeImg'>
+            <div class="RowFlex">
+                <svg class='arrow back' id='backArrow' onclick="PreviousTee()" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"/></svg>
+                <h3 id='teeName'></h3>
+                <svg class='arrow' id='nextArrow' onclick="NextTee()" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24"><path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"/></svg>
+            </div>
+        </div>
+        <div class='product trausers'>
+            <h2>Trausers</h2>
+            <img id='trausersImg'>
+            <div class='RowFlex'>
+                <svg class='arrow back' id='backArrow' onclick="PreviousTrausers()" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"/></svg>
+                <h3 id='trausersName'></h3>
+                <svg class='arrow' id='nextArrow' onclick="NextTrausers()" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24"><path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"/></svg>
+            </div>
+        </div>
+        <div class='product hoodies'>
+            <h2>Hoodies</h2>
+            <img id='hoodieImg'>
+            <div class='RowFlex'>
+                <svg class='arrow back' id='backArrow' onclick="PreviousHoodie()" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"/></svg>
+                <h3 id='hoodieName'></h3>
+                <svg class='arrow' id='nextArrow' onclick="NextHoodie()" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24"><path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"/></svg>
+            </div>
+        </div>
+        <div class='product hats'>
+            <h2>Hats</h2>
+            <img id='hatImg'>
+            <div class='RowFlex'>
+                <svg class='arrow back' id='backArrow' onclick="PreviousHat()" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"/></svg>
+                <h3 id='hatName'></h3>
+                <svg class='arrow' id='nextArrow' onclick="NextHat()" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24"><path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"/></svg>
+            </div>
+        </div>
+        <div class='product crewNecks'>
+            <h2>Crewnecks</h2>
+            <img id='crewneckImg'>
+            <div class='RowFlex'>
+                <svg class='arrow back' id='backArrow' onclick="PreviousCrewneck()" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"/></svg>
+                <h3 id='creneckName'></h3>
+                <svg class='arrow' id='nextArrow' onclick="NextCrewneck()" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24"><path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"/></svg>
+            </div>
+        </div>
+        <div class= 'product more'>
+            <h2>More</h2>
+        </div>
+    </div>
+    <footer>
+        <h2>Somnia &copy;</h2>
+    </footer>
+    <script src='./pants.js'></script>
+    <script src='./hats.js'></script>
+    <script src='./hoodies.js'></script>
+    <script src='./tees.js'></script>
+</body>
+
+</html>

@@ -1,0 +1,131 @@
+:root {
+    --mainColor: #ffffff;
+    --transitionDuration: .2s;
+    --fontFamily: 'Roboto', sans-serif;
+    --foterHeight: 15vh;
+  }
+
+body{
+    background-color: black;
+    padding: 0;
+    margin:0;
+}
+
+.logo{
+    fill:var(--mainColor);
+    color: var(--mainColor);
+}
+img.logo{
+    width: 10vh;
+}
+h1{
+    font-size: 8vh;
+    font-family: var(--fontFamily);
+}
+.header{
+    margin-left: 5vh;
+    margin-right: 5vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+/* @media screen and (max-width: 300px){
+    .header{
+        margin-left: 5vh;
+        margin-right: 5vh;
+        margin-top: 0.1vh;
+        margin-bottom: 0.1vh;
+    }
+} */
+.RowFlex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:2vh;
+    align-content: center;
+
+}
+.RowFlex.lan{
+    gap:0;
+}
+p.lan{
+    color: var(--mainColor);
+    font-family: var(--fontFamily);
+    margin:0;
+    padding:0;
+}
+.loginIcon{
+    fill:var(--mainColor);
+    width: 7vh;
+    height: 7vh;
+    cursor: pointer;
+    transition: var(--transitionDuration);
+}
+.loginIcon:hover{
+    width: 8vh;
+    height: 8vh;
+    transition: var(--transitionDuration);
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    margin:50px;
+    flex-direction: row;
+    justify-content: center;
+}
+.product{
+    border: solid var(--mainColor) 2px;
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.product h2{
+    color: var(--mainColor);
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+
+}
+.product img{
+    width: 90%;
+}
+.product h3{
+    color: var(--mainColor);
+    font-family: var(--fontFamily);
+    font-weight: lighter;
+}
+
+
+footer{
+    height: var(--foterHeight);
+    border-top: solid var(--mainColor) 2px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+footer h2{
+    color: var(--mainColor);
+    font-family: var(--fontFamily);
+    font-weight: lighter;
+    transition: var(--transitionDuration);
+}
+.arrow{
+    height: 24px;
+    width: 24px;
+    fill:var(--mainColor);
+    transition: var(--transitionDuration);
+}
+.arrow:hover{
+    height: 30px;
+    width: 30px;
+}
+.arrow.back{
+    transform: rotate(180deg);
+}
