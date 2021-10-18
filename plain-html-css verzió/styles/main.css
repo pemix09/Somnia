@@ -1,0 +1,43 @@
+html {
+	font-family: helvetica neue, helvetica, arial;
+}
+
+body {
+	background-image: url(https://scontent-vie1-1.cdninstagram.com/v/t51.2885-15/e35/s240x240/118471083_178598780388599_994505459928494806_n.jpg?_nc_ht=scontent-vie1-1.cdninstagram.com&_nc_cat=111&_nc_ohc=z2tnbCQStDAAX8LIZZ7&tp=1&oh=99e76e3e13a2a0d3ea2e5e311d664841&oe=603090F3);
+	font-size: 1rem;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+h1, h2 {
+	
+}
+
+a {
+	color: green;
+	padding: 0;
+}
+
+table {
+	padding: 0;
+}
+
+img {
+	border: 0;
+	padding:0;
+	margin: 0;
+	width: 100%;
+	opacity: 0.95;
+}
+
+button, tr, td {
+	width: 100%;
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+
+.center {
+	display: flex;
+	justify-content: center;
+}
